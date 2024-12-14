@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Guardian Angels - Personality Teset</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Your Guardian Angel</h1>
+            <p class="subtitle">If you have a guardian, which one will it be?</p>
+        </header>
+
+        <div class="testContainer">
+            <div id="progressContainer">
+                <div class="progressLabels">
+                    <span id="questionCounter">Question 1</span>
+                    <span id="dimensionIndicator">Exploring your energy</span>
+                </div>
+                <div id="progressBar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+
+            <div id="questionContainer">
+                <div class="storyScenario" id="scenario"></div>
+                <div class="storyQuestion" style="text-align: center;" id="currentQuestion"></div>
+                <div class="choices">
+                    <button class="choiceBtn" id="choice1"></button>
+                    <button class="choiceBtn" id="choice2"> </button>
+                </div>
+            </div>
+
+            <div id="result-container" style="display: none;">
+                <h2>Your Guardian Angel Type:</h2>
+                <div id="type-result"></div>
+                <div id="angel-name"></div>
+                <div class="type-breakdown">
+                    <div class="dimension" id="ei-result"></div>
+                    <div class="dimension" id="sn-result"></div>
+                    <div class="dimension" id="ft-result"></div>
+                    <div class="dimension" id="jp-result"></div>
+                </div>
+                <div id="angelTraits"></div>
+                <div id="angelPower"></div>
+                <div id="angelCompability"></div>
+                <div id="angelArchEnemy"></div>
+                <div id="angelConflict"></div>
+                <button id="restart-btn">Take Test Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
